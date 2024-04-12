@@ -1,0 +1,47 @@
+/* Contact.css */
+.contact-container {
+    
+    padding: 20px;
+  }
+  
+  header {
+    color:black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .contact-info,
+  .social-media,
+  .cruise-details {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  }
+  
+  .social-links a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .social-links img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  footer {
+    color:black;
+    text-align: center;
+    padding: 10px;
+  }
+  
